@@ -15,4 +15,12 @@ return a * b;
 }
 double MyDiv(double a, double b)
 {
-retur
+return a/b;
+}
+int MyPow(int num, int n) {
+int res = num;
+for (int i = 1; i < n; i++) {
+res *= num;
+}
+return res;
+}
